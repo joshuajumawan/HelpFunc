@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/dialog_view_portfolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Viewing the Portfolio"
+            android:textSize="27dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:editable="false"
+            android:inputType="none"
+            android:text="@string/view_portfolio" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="133dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center|right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/my_button"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

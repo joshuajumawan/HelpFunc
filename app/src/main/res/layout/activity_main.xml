@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:text="HELP"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/btn_help_registration_of_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/my_button"
+            android:text="Registration of Account"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_help_viewEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/my_button"
+            android:text="Viewing the Events"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_help_viewPortfolio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/my_button"
+            android:text="Viewing the Portfolio"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_help_scanQr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/my_button"
+            android:text="Scanning the QR code"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_help_viewHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/my_button"
+            android:text="Viewing the Help"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_help_changeLoginCredentials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/my_button"
+            android:text="Changing the login credentials"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center|right"
+            android:text="BACK"
+            android:textColor="#595959"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
